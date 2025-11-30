@@ -51,6 +51,6 @@ public class ArticuloServiceImp implements ArticuloService {
         if (id != null) {
             articuloRepository.deleteById(id);
         }
-        // Optionally, handle the case where id is null (e.g., throw exception or log warning)
+        
     }
 }
